@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/sectors")
@@ -31,5 +32,27 @@ public class SectorController {
     public Sector createSector(@RequestBody Sector sector) {
         return sectorRepository.save(sector);
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Sector> updateSector(@PathVariable Long id, @RequestBody Sector updatedSector) {
+        return sectorRepository.findById(id).map(sector -> {
+            sector.setName(updatedSector.getName());
+            return ResponseEntity.ok(sectorRepository.save(sector));
+        }).orElse(ResponseEntity.notFound().build());
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteSector(@PathVariable Long id) {
+        Optional<Sector> optionalSector = sectorRepository.findById(id);
+
+        if (optionalSector.isPresent()) {
+            sectorRepository.delete(optionalSector.get());
+            return ResponseEntity.noContent().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+
 
 }
