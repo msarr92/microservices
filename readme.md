@@ -42,17 +42,17 @@ Liste des Secteurs
 
 Recherche secteur par id
 
-![Screenshot 2025-08-05 230703.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20230703.png)
+![Screenshot 2025-08-05 230703.png](Screenshot%202025-08-05%20230703.png)
 
 Modifier un secteur
 
-![Screenshot 2025-08-05 230810.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20230810.png)
+![Screenshot 2025-08-05 230810.png](Screenshot%202025-08-05%20230810.png)
 
 Supprimer un secteur
 
-![Screenshot 2025-08-05 231514.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20231514.png)
+![Screenshot 2025-08-05 231514.png](Screenshot%202025-08-05%20231514.png)
 
-Voici la partie Classe
+## Voici la partie Classe
 
 Ajouter une Classe
 
@@ -60,22 +60,22 @@ Ajouter une Classe
 
 L'orsqu'on ajoute une classe et que l'id du secteur n'exite pas
 
-![Screenshot 2025-08-05 232822.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20232822.png)
+![Screenshot 2025-08-05 232822.png](Screenshot%202025-08-05%20232822.png)
 
 Liste des Classes
 
-![Screenshot 2025-08-05 232856.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20232856.png)
+![Screenshot 2025-08-05 232856.png](Screenshot%202025-08-05%20232856.png)
 
 Recherche Classe par id
 
-![Screenshot 2025-08-05 232926.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20232926.png)
+![Screenshot 2025-08-05 232926.png](Screenshot%202025-08-05%20232926.png)
 
 Modifier une Classe 
 
-![Screenshot 2025-08-05 233035.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20233035.png)
+![Screenshot 2025-08-05 233035.png](Screenshot%202025-08-05%20233035.png)
 
 Supprimer une classe par id
 
-![Screenshot 2025-08-05 233103.png](../../../../../Pictures/Screenshots/Screenshot%202025-08-05%20233103.png)
+![Screenshot 2025-08-05 233103.png](Screenshot%202025-08-05%20233103.png)
 
 
